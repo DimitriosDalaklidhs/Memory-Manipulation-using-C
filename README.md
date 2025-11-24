@@ -1,7 +1,7 @@
 #  Memory and Bit Manipulation in C
 
 This project explores **low-level bitwise and memory operations** in C — showing how to directly manipulate data at the binary and byte level.  
-It’s a hands-on example of how bit masks, shifting, and pointer arithmetic work together to control data efficiently.
+It’s a hands-on example of how bit masks, shifting, and pointer arithmetic work together to control data most efficiently.
 ## Overview
 The main program (`memory_manipulation.c`) demonstrates:
 
