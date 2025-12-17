@@ -7,12 +7,14 @@
 #define FLAG_WRITE (1u<<1)
 #define FLAG_EXEC  (1u<<2)
 
-/* popcount (Brian Kernighan) */
-static unsigned count_bits(unsigned x) {
+unsigned count_bits(unsigned x) {
     unsigned c = 0;
-    while (x) { x &= x - 1; ++c; }
+    for (; x; x &= x - 1) {
+        ++c;
+    }
     return c;
 }
+
 
 /* trailing zero count with GCC builtin fallback */
 static unsigned tzcount(unsigned x) {
