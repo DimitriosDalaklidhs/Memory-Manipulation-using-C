@@ -6,7 +6,7 @@
 #define FLAG_READ  (1u<<0)
 #define FLAG_WRITE (1u<<1)
 #define FLAG_EXEC  (1u<<2)
-
+/*Brian Kernighan’s Algorithm shown.*/
 unsigned count_bits(unsigned x) {
     unsigned c = 0;
     for (; x; x &= x - 1) {
@@ -23,8 +23,10 @@ static unsigned tzcount(unsigned x) {
 #else
     unsigned c = 0;
     if (x == 0) return 0;
-    while ((x & 1u) == 0u) { ++c; x >>= 1; }
-    return c;
+   for (; (x & 1u) == 0u; x >>= 1) {
+    ++c;
+}
+return c;
 #endif
 }
 
