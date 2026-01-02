@@ -11,7 +11,7 @@ The code demonstrates portable low-level logic, manual memory management, bitwis
 
 What the Program Demonstrates
 
-The program uses integer bit flags, masked writes, parity checks, and rotate-left operations. It includes Brian Kernighan’s algorithm for counting set bits and a trailing zero count implementation that uses a GCC builtin when available, with a portable fallback otherwise.
+The program uses integer bit flags, masked writes, parity checks, and rotate-left operations. It includes Brian Kernighan’s algorithm for counting set bits and a trailing zero count implementation that uses a GCC builtin when available, with a portable fallback otherwise. Some of the concepts demonstrated become ever more relevant as the building blocks of the modern cloud infrastructure troubleshooting work.
 
 Memory usage includes dynamic allocation with malloc and free, zero initialization with memset, shadow buffer copying, byte inversion, and accumulation of multiple bytes into a 32-bit value. Pointer arithmetic is used to directly manipulate and pack bits into specific memory locations.
 
