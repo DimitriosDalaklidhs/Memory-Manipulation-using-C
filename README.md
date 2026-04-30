@@ -1,4 +1,4 @@
-# Bits and Memory — C90 Demonstration
+# Bits and Memory: C90 Demonstration
 
 A compact ANSI C (C90) program focused on low-level bit manipulation, memory handling, and pointer arithmetic. Intended as a learning and reference file for classic systems programming techniques.
 
