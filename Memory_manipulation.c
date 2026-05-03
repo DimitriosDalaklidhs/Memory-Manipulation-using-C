@@ -63,9 +63,9 @@ static unsigned tzcount(unsigned x) {
 }
 
 int main(void) {
-    /* ------------------------------------------------------------
-     * Setup and initialization
-     * ------------------------------------------------------------ */
+    /* 
+      Setup and initialization
+ */
     unsigned n = 16;
     unsigned flags = 0;
     unsigned char *buf = (unsigned char*)malloc(n);
