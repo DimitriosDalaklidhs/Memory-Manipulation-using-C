@@ -46,4 +46,4 @@ A compact ANSI C (C90) program focused on low-level bit manipulation, memory han
 
 ---
 
-> Some of the concepts demonstrated here are directly relevant to modern cloud infrastructure and low-level systems troubleshooting.
+> Some of the concepts demonstrated here are directly relevant to modern cloud infrastructure and low-level systems troubleshooting such as the change in bits that trigger alarms in systems.
